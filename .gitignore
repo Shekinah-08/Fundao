@@ -1,0 +1,33 @@
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+.env
+artifacts/
+cache/
+coverage/
+
+# Dépendances
+node_modules/
+frontend/node_modules/
+
+# Next.js
+frontend/.next/
+
+# Variables d'environnement
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+
+# Clés et fichiers sensibles
+*.pem
+*.key
+*.tsbuildinfo
